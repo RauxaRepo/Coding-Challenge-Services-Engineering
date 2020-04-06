@@ -6,7 +6,12 @@ A swatch is defined as a design option for a product that can be customized. The
 ## Sample Swatch Images 
 For this prototype, we have provided sample swatch images you can use. They can be downloaded from this repo. 
 
-## Technical Specifications
+![Aloha](https://raw.githubusercontent.com/RauxaRepo/Coding-Challenge-Services-Engineering/master/swatches/aloha-sm.jpg "Aloha") 
+![Cubes](https://raw.githubusercontent.com/RauxaRepo/Coding-Challenge-Services-Engineering/master/swatches/cubes-sm.jpg "Cubes")
+![Rainbows and Butterflies](https://raw.githubusercontent.com/RauxaRepo/Coding-Challenge-Services-Engineering/master/swatches/rainbow-butterflies-sm.jpg "Rainbows and Butterflies")
+![Camo](https://raw.githubusercontent.com/RauxaRepo/Coding-Challenge-Services-Engineering/master/swatches/camo-sm.jpg "Camo") 
+
+## Swatch Specifications
 
 ### Swatch Data Model 
 
@@ -28,6 +33,6 @@ For this prototype, we have provided sample swatch images you can use. They can 
     "price": "$10",
     "image": "url to image",
     "color": "#467654",
-    "date": "date created"
+    "date": "created timestamp"
 }
 ```
