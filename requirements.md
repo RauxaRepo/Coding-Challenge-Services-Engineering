@@ -25,8 +25,9 @@ Users should be able to perform the below actions on the respective views/screen
   - Ability to `READ`  swatches
   - Ability to `UPDATE`  swatches
   - Ability to `DELETE` a swatch
-- The app should respond to incoming `API requests`. Support for `GET`, `POST`, and `PUT` methods.
-- The app should query the database and return records in support of incoming requests. 
+- The app should respond to incoming `API requests` with a `JSON` response. 
+- The app should have support for `GET`, `POST`, and `PUT` methods.
+- The app should query the database and return in support of incoming requests. 
 - The app should update the database in support of incoming requests.
 - Your NodeJS application should be deployed to an `EC2 instance`.  
 
