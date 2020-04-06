@@ -5,7 +5,7 @@ We are going to prototype a basic 3 tier web application that will allow us to m
 
 ## Swatches Manager App Features
 
-There are 3 general features we must support for [`swatches`](/swatches/readme.md):
+**There are 3 general features the Swatch Manager App must support:** 
 - **List of Swatches** - A view that list of all of our swatches from our database. Here we can show the swatch thumbnail and the name in a list or table format. 
 - **Swatch Details** - Clicking on a swatch image or name from the list view should display the swatch detail view. It shows all additional details for a swatch. Name, price, etc. Please see below for the **Swatches data model**.  
 - **Add a Swatch** - A form that can be filled out to create a new swatch. The data model for a swatch can be found below. 
