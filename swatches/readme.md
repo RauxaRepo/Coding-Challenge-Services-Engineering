@@ -13,6 +13,10 @@ For this prototype, we have provided sample swatch images you can use. They can 
 
 ## Swatch Specifications
 
+### Image Sizes
+- **Large**: Images with the `-lg` suffix. They can be used for the swatch detail view.
+- **Small**: Images with the `-sm`. They can be used for the swatch list view.
+
 ### Swatch Data Model 
 
 ```javascript
