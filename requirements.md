@@ -1,11 +1,11 @@
 # Requirements
 
 ## Project Overview
-We are going to prototype a basic 3 tier web application that will allow us to manage Swatches data easily from a browser. The **Swatches Manager** tool will provide a simple interface to view our swatches, view the details for an individual swatch, and create new swatches that will be store in our swatch database.
+We are going to prototype a basic 3 tier web application that will allow us to manage [`Swatches`](/swatches/readme.md) data easily from a browser. The **Swatches Manager** tool will provide a simple interface to view our swatches, view the details for an individual swatch, and create new swatches that will be store in our swatch database.
 
 ## Swatches Manager App Features
 
-There are 3 general features we must support:
+There are 3 general features we must support for [`swatches`](/swatches/readme.md):
 - **List of Swatches** - A view that list of all of our swatches from our database. Here we can show the swatch thumbnail and the name in a list or table format. 
 - **Swatch Details** - Clicking on a swatch image or name from the list view should display the swatch detail view. It shows all additional details for a swatch. Name, price, etc. Please see below for the **Swatches data model**.  
 - **Add a Swatch** - A form that can be filled out to create a new swatch. The data model for a swatch can be found below. 
@@ -13,7 +13,7 @@ There are 3 general features we must support:
 Users should be able to perform the below actions on the respective views/screens:
 - Ability to view a list of swatches and see top level information. 
 - Ability to click on a swatch from the list and view more details. 
-- Ability to create a new swatch
+- Ability to create a [`new swatch`](/swatches/readme.md)
 - Newly created swatches should become available in list/detail views.
 
 # Technical Spec
@@ -30,30 +30,6 @@ Users should be able to perform the below actions on the respective views/screen
 - The app should query the database and return in support of incoming requests. 
 - The app should update the database in support of incoming requests.
 - Your NodeJS application should be deployed to an `EC2 instance`.  
-
-#### Swatch Data Model 
-
-```javascript
-{
-    "active": Boolean
-    "name": String,
-    "price": String,
-    "image": String,
-    "color": String
-    "date": String
-}
-```
-##### Example
-```javascript
-{
-    "active": true,
-    "name": "My Swatch",
-    "price": "$10",
-    "image": "url to image",
-    "color": "#467654",
-    "date": "date created"
-}
-```
 
 ##### `Note:` Please remember to provision resources using `free tier` so you do not occur any charges for this exercise. 
 

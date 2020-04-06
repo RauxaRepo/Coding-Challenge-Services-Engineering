@@ -1,8 +1,14 @@
 # Swatches
 
-This directory contains sample swatch images you can use for your prototype. 
+## What is a Swatch
+A swatch is defined as a design option for a product that can be customized. The swatch could be a solid color, or a pattern. 
 
-## Swatch Data Model 
+## Sample Swatch Images 
+For this prototype, we have provided sample swatch images you can use. They can be downloaded from this repo. 
+
+## Technical Specifications
+
+### Swatch Data Model 
 
 ```javascript
 {
