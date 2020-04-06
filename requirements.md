@@ -1,7 +1,7 @@
 # Requirements
 
 ## Project Overview
-We are going to prototype a basic 3 tier web application that will allow us to manage [`Swatches`](/swatches/readme.md) data easily from a browser. The **Swatches Manager** tool will provide a simple interface to view our swatches, view the details for an individual swatch, and create new swatches that will be store in our swatch database.
+We are going to prototype a basic 3 tier web application that will allow us to manage [`Swatches`](/swatches/readme.md) data easily from a browser. The **Swatches Manager** tool will provide a simple interface to view our swatches, view the details for an individual swatch, and create new swatches that will be stored in our `swatches database`.
 
 ## Swatches Manager App Features
 
