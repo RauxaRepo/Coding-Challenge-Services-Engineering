@@ -44,8 +44,8 @@ Your NodeJS application should be deployed to an `EC2 instance`.
 ### VueJS Application Requirements:
 - The front end should be built using [VueJS](https://vuejs.org/). 
 - Your app should leverage endpoints exposed by your NodeJS application to perform CRUD operations. 
-- Your code should be easy to understand, and broken into logical. 
-- Your front end build should a single page app with a single `index.html`
+- Your code should be easy to understand, and broken into logical components.
+- Your final Vue build should a single page app with a single `index.html`
 linking to external `JS/CSS/etc`. 
 
 ### Hosting
