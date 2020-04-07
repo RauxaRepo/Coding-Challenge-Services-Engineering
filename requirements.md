@@ -17,7 +17,7 @@ There are 3 general features the **Swatches Manager** needs to support:
 Users should be able to perform the below actions in the respective views/screens:
 - In the `List View`, the ability to view a list of swatches and see the information specified above. 
 - In the `List View`, the ability to `click` on a `swatch thumbnail` or `swatch name` and view the details for that swatch. 
-- In the **Add Swatch** view, the ability to create a [`new swatch`](/swatches/readme.md) and see it in the other views respectively.
+- In the `Add Swatch` view, the ability to create a [`new swatch`](/swatches/readme.md) and see it in the other views respectively.
 
 
 # Technical Spec
