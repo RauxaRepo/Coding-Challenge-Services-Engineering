@@ -1,21 +1,23 @@
 # Requirements
 
 ## Project Overview
-We are going to prototype a basic 3 tier web application that will allow us to manage [`Swatches`](/swatches/readme.md) data easily from a browser. The **Swatches Manager** tool will provide a simple interface to view our swatches, view the details for an individual swatch, and create new swatches that will be stored in our `swatches database`.
+In this challenge, we are going to prototype a basic `3 tier web application` that will allow us to manage [`Swatches`](/swatches/readme.md) data easily from a browser. To understand what a swatch is, you can [read more here.](/swatches/readme.md)
 
-## Swatches Manager App Features
+The **Swatches Manager** will provide a simple interface to view our swatches, view the details for an individual swatch, and create new swatches that will be stored in our swatches database.
 
-There are 3 general features the Swatch Manager App must support:
-- **List of Swatches** - A view that list of all of our swatches from our database. For the list view, display the `image thumbnail`, `swatch name`, and `active` status. They can be presented in either a list or table format. 
+## General Features
+
+There are 3 general features the **Swatches Manager** needs to support:
+- **List of Swatches** - A view that list of all of our swatches in our database. For the list view, display the `image thumbnail`, the `swatch name`, and the `active` status. They can be presented in either a list or table format. 
 - **Swatch Details** - The swatch details view displays the large image of the swatch along with `active` status, `name`, `price`, `color` and `date`. Essentially everything plus the `-lg` image. 
 - **Add a Swatch** - A form that when filled out and submitted, creates a new swatch. Newly created swatches should become available in list/detail views. The data model for a swatch can be [found here](/swatches/readme.md). 
 
 ## Use Cases
 
 Users should be able to perform the below actions in the respective views/screens:
-- Ability to view a list of swatches and see the specified information. 
-- Ability to click on a `swatch thumbnail` or `swatch name` from the `list` and view more details. 
-- Ability to create a [`new swatch`](/swatches/readme.md) and see it in the other views respectively.
+- In the `List View`, the ability to view a list of swatches and see the information specified above. 
+- In the `List View`, the ability to `click` on a `swatch thumbnail` or `swatch name` and view the details for that swatch. 
+- In the **Add Swatch** view, the ability to create a [`new swatch`](/swatches/readme.md) and see it in the other views respectively.
 
 
 # Technical Spec
