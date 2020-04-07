@@ -5,16 +5,18 @@ We are going to prototype a basic 3 tier web application that will allow us to m
 
 ## Swatches Manager App Features
 
-**There are 3 general features the Swatch Manager App must support:** 
-- **List of Swatches** - A view that list of all of our swatches from our database. Here we can show the swatch thumbnail and the name in a list or table format. 
-- **Swatch Details** - Clicking on a swatch image or name from the list view should display the swatch detail view. It shows all additional details for a swatch. Name, price, etc. Please see below for the **Swatches data model**.  
-- **Add a Swatch** - A form that can be filled out to create a new swatch. The data model for a swatch can be found below. 
+There are 3 general features the Swatch Manager App must support:
+- **List of Swatches** - A view that list of all of our swatches from our database. For the list view, display the `image thumbnail`, `swatch name`, and `active` status. They can be presented in either a list or table format. 
+- **Swatch Details** - The swatch details view displays the large image of the swatch along with `active` status, `name`, `price`, `color` and `date`. Essentially everything plus the `-lg` image. 
+- **Add a Swatch** - A form that when filled out and submitted, creates a new swatch. Newly created swatches should become available in list/detail views. The data model for a swatch can be [found here](/swatches/readme.md). 
 
-Users should be able to perform the below actions on the respective views/screens:
-- Ability to view a list of swatches and see top level information. 
-- Ability to click on a swatch from the list and view more details. 
-- Ability to create a [`new swatch`](/swatches/readme.md)
-- Newly created swatches should become available in list/detail views.
+## Use Cases
+
+Users should be able to perform the below actions in the respective views/screens:
+- Ability to view a list of swatches and see the specified information. 
+- Ability to click on a `swatch thumbnail` or `swatch name` from the `list` and view more details. 
+- Ability to create a [`new swatch`](/swatches/readme.md) and see it in the other views respectively.
+
 
 # Technical Spec
 
@@ -29,9 +31,12 @@ Users should be able to perform the below actions on the respective views/screen
 - The app should have support for `GET`, `POST`, and `PUT` methods.
 - The app should query the database and return in support of incoming requests. 
 - The app should update the database in support of incoming requests.
-- Your NodeJS application should be deployed to an `EC2 instance`.  
 
-##### `Note:` Please remember to provision resources using `free tier` so you do not occur any charges for this exercise. 
+
+### Hosting
+Your NodeJS application should be deployed to an `EC2 instance`.  
+
+> Please remember to provision all resources using [`AWS FREE TIER`](https://aws.amazon.com/free/). If you do, you should not incur any charges for this exercise. 
 
 ## Front End
 ### VueJS Application Requirements:
@@ -41,8 +46,8 @@ Users should be able to perform the below actions on the respective views/screen
 - Your front end build should a single page app with a single `index.html`
 linking to external `JS/CSS/etc`. 
 
-### Host It
-- When Hosting your front end application, ensure it is authorized to make requests to your Node app. 
+### Hosting
+- When Hosting your front end application, ensure it is authorized to make requests to your Node app. Consider CORS rules if necessary.
 - Hosting your front end you have many options. Choose one from the list below:  
   - [Render](https://render.com/)
   - [AWS S3](https://github.com/multiplegeorges/vue-cli-plugin-s3-deploy)    
